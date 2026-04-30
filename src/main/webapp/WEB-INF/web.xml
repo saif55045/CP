@@ -7,6 +7,21 @@
 
     <display-name>Todo List App</display-name>
 
+    <servlet>
+        <servlet-name>TodoServlet</servlet-name>
+        <servlet-class>com.todoapp.servlet.TodoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TodoServlet</servlet-name>
+        <url-pattern>/todos/*</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>
+        <servlet-name>TodoServlet</servlet-name>
+        <url-pattern>/todos</url-pattern>
+    </servlet-mapping>
+
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
