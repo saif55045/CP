@@ -1,0 +1,6 @@
+i want a web based java simple project like todo list
+also the project should have test cases
+then push it to github https://github.com/saif55045/CP.git here.
+then build it using jenkins 
+then deploy it on tomcat server
+make a proper CI/CD pipeline for it which update on one click.
